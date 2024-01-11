@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: auto;
+    margin: 0px 80px 0px 80px;
+}
+
+.del{
+    clear: both;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #F9F7F7;
+}
+
+#header img{
+    width: 120px;
+    margin-top: 13px;
+}
+
+#header ul{
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+}
+
+#header ul li{
+    float: left;
+    margin-left: 20px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    color: #112D4E;
+    font-family: 'Odor Mean Chey', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#header .active{
+    border-bottom: 2px solid #000;
+}
+
+#header ul li a:hover{
+    border-bottom: 2px solid #000;
+}
+
+
+
+#main{
+    width: 100%;
+    height: 600px;
+    background-color: #F9F7F7;
+    border: 1px solid #000;
+}
+
+#main h1{
+    color: #0B82E6;
+    font-family: 'Inika', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#main h6{
+    color: #112D4E;
+    font-family: 'Inika',  sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#main .img-box{
+    display: flex;
+    justify-content: center;
+}
+
+#main img{
+    width: 300px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 1100px){
+    .container{
+        width: auto;
+        margin: 0px 50px 0px 50px;
+    }
+
+    #header img{
+        width: 110px;
+        margin-top: 14px;
+    }
+
+    #header ul li a{
+        font-size: 20px;
+    }
+
+    #main{
+        height: 600px;
+    }
+
+    #main h1{
+        font-size: 34px;
+    }
+
+    #main h6{
+        font-size: 14px;
+    }
+
+    #main img{
+        width: 280px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 800px){
+    .container{
+        width: auto;
+        margin: 0px 30px 0px 30px;
+    }
+
+    #header img{
+        width: 100px;
+        margin-top: 17px;
+    }
+
+    #header ul li a{
+        font-size: 17px;
+    }
+
+    #main{
+        height: 500px;
+    }
+
+    #main h1{
+        font-size: 25px;
+    }
+
+    #main h6{
+        font-size: 10px;
+    }
+
+    #main img{
+        width: 240px;
+        margin-top: 30px;
+    }
+}
