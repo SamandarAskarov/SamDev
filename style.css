@@ -287,8 +287,58 @@
 
 #footer{
     width: 100%;
-    height: 420px;
+    height: 460px;
     background-color: #0B82E6;
+}
+
+.out-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-logo{
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border: 1px solid #57DEB2;
+    margin-top: 130px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-logo img{
+    width: 110px;
+}
+
+#footer h1{
+    font-size: 27px;
+    color: #ffffff;
+    font-family: 'Odor Mean Chey', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#footer .icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#footer i{
+    margin-right: 20px;
+}
+
+#footer p{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Odor Mean Chey', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
 }
 
 @media (max-width: 1100px){
@@ -339,6 +389,23 @@
     .conver{
         width: 800px;
         height: 140px;
+    }
+
+    .in-logo{
+        width: 110px;
+        height: 110px;
+    }
+
+    .in-logo img{
+        width: 100px;
+    }
+
+    #footer h1{
+        font-size: 24px;
+    }
+
+    #footer p{
+        font-size: 15px;
     }
 }
 
@@ -398,7 +465,7 @@
     }
 
     #works{
-        margin-top: 1700px;
+        margin-top: 1800px;
     }
     
     #works h1{
@@ -439,7 +506,30 @@
     }
 
     .conver a{
-        font-size: 17px;
+        font-size: 16px;
+    }
+
+    #footer{
+        height: 600px;
+    }
+
+    .in-logo{
+        margin-top: 310px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .in-logo img{
+        width: 90px;
+    }
+
+    #footer h1{
+        font-size: 20px;
+    }
+
+    #footer p{
+        font-size: 12px;
+        margin-top: 30px;
     }
 
 }
