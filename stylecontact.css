@@ -99,7 +99,7 @@
     border: 1px solid #5e5e5e;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #main button{
@@ -129,6 +129,11 @@
 }
 
 @media (max-width: 800px){
+    #header img{
+        width: 80px;
+        margin-top: 18px;
+    }
+    
     #main h1{
         font-size: 25px;
     }
